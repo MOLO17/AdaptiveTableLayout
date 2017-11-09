@@ -60,6 +60,10 @@ class AdaptiveTableManager {
         mIsInited = true;
     }
 
+    public boolean isInited() {
+        return mIsInited;
+    }
+
     void checkForInit() {
         if (!mIsInited) {
             throw new IllegalStateException("You need to init matrix before work!");
