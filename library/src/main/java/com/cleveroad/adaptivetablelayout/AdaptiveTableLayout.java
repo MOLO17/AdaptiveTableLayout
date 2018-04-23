@@ -1472,6 +1472,8 @@ public class AdaptiveTableLayout extends ViewGroup implements ScrollHelper.Scrol
                     onItemClickListener.onItemLongClick(viewHolder.getRowIndex(), viewHolder.getColumnIndex());
                 } else if (viewHolder.getItemType() == ViewHolderType.FIRST_HEADER) {
                     onItemClickListener.onLeftTopHeaderLongClick();
+                } else if (viewHolder.getItemType() == ViewHolderType.ROW_HEADER) {
+                    onItemClickListener.onRowHeaderLongClick(viewHolder.getRowIndex());
                 }
             }
         }
