@@ -135,11 +135,6 @@ mTableAdapter.notifyDataSetChanged();
 ## Changelog
 See [changelog history].
 
-### Support ###
-If you have any questions, issues or propositions, please create a <a href="../../issues/new">new issue</a> in this repository.
-
-If you want to hire us, send an email to sales@cleveroad.com or fill the form on <a href="https://www.cleveroad.com/contact">contact page</a>
-
 Follow us:
 
 [![Awesome](/images/social/facebook.png)](https://www.facebook.com/cleveroadinc/)   [![Awesome](/images/social/twitter.png)](https://twitter.com/cleveroadinc)   [![Awesome](/images/social/google.png)](https://plus.google.com/+CleveroadInc)   [![Awesome](/images/social/linkedin.png)](https://www.linkedin.com/company/cleveroad-inc-)   [![Awesome](/images/social/youtube.png)](https://www.youtube.com/channel/UCFNHnq1sEtLiy0YCRHG2Vaw)
