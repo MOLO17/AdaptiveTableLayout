@@ -6,13 +6,9 @@
     android:background="@color/medium_jungle_green"
     android:focusableInTouchMode="true">
 
-    <com.cleveroad.adaptivetablelayout.AdaptiveTableLayout
-        android:id="@+id/tableLayout"
+    <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/toolbar"
-        app:cellMargin="1dp"
-        app:dragAndDropEnabled="true"
-        app:fixedHeaders="true"
-        app:solidRowHeaders="true"/>
+        android:layout_height="match_parent" />
+
 </RelativeLayout>
