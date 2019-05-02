@@ -267,6 +267,11 @@ public class TableLayoutFragment
     }
 
     @Override
+    public void onRowHeaderLongClick(int row) {
+
+    }
+
+    @Override
     public void onFileUpdated(final String filePath, boolean isSuccess) {
         hideProgress();
         View view = getView();
